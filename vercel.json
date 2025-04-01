@@ -10,9 +10,7 @@
     "main.py": {
       "runtime": "python3.9",
       "memory": 512,
-      "maxDuration": 10,
-      "excludeFiles": ["tests/**", "docs/**", "*.md", "examples/**"],
-      "externalDependencies": ["pandas", "numpy"]
+      "maxDuration": 10
     }
   },
   "routes": [
@@ -20,5 +18,6 @@
       "src": "/(.*)",
       "dest": "main.py"
     }
-  ]
+  ],
+  "ignore": ["tests/**", "docs/**", "*.md", "examples/**"]
 }
