@@ -1,35 +1,8 @@
-# AI-Powered Question Answering System
-
-A sophisticated API that leverages Large Language Models (LLMs) to automatically process and answer questions from educational content.
-
-## Overview
-
-This FastAPI-based solution harnesses the power of language models to deliver precise answers to user queries. Key capabilities include:
-
-1. Natural language question processing with database matching
-2. Dynamic Python/Bash code generation and execution
-3. Support for file uploads including ZIP and CSV formats
-
 ## Core Capabilities
 
 ### Smart Question Analysis
 - Smart detection of query type (direct answer vs code execution needed)
 - Contextual understanding and processing
-
-### Intelligent Code Operations
-- Automatic Python/Bash code generation
-- Secure sandboxed execution environment
-- Markdown code block parsing and extraction
-
-### Advanced File Handling
-- ZIP file extraction and processing
-- CSV data analysis capabilities
-- Context-aware file processing for enhanced LLM responses
-
-### Seamless API Integration
-- LLM API connectivity for response generation
-- Secure credential management via environment variables
-
 ## Getting Started
 
 ### System Requirements
@@ -42,8 +15,8 @@ This FastAPI-based solution harnesses the power of language models to deliver pr
 
 1. Get the code:
 ```bash
-git clone https://github.com/prudhvi1709/tdsproject2.git
-cd tdsproject2
+git clone https://github.com/SIRIKONDAMANASA/tds-project2.git
+cd tds-project2
 ```
 
 3. Configure environment variables:
