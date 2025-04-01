@@ -18,6 +18,5 @@
       "src": "/(.*)",
       "dest": "main.py"
     }
-  ],
-  "ignore": ["tests/**", "docs/**", "*.md", "examples/**"]
+  ]
 }
