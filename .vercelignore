@@ -1,5 +1,9 @@
-*.csv
-*.xlsx
-*.pdf
-*.log
+tests/
+docs/
+*.md
+examples/
 __pycache__/
+.env
+node_modules/
+public/
+
