@@ -6,6 +6,15 @@
       "use": "@vercel/python"
     }
   ],
+  "functions": {
+    "main.py": {
+      "runtime": "python3.9",
+      "memory": 512,
+      "maxDuration": 10,
+      "excludeFiles": ["tests/**", "docs/**", "*.md", "examples/**"],
+      "externalDependencies": ["pandas", "numpy"]
+    }
+  },
   "routes": [
     {
       "src": "/(.*)",
